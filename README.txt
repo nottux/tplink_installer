@@ -6,7 +6,7 @@ download only the tplink_installer.sh script and run the script with sh or bash
 after the install if driver not works or couses the problems remove the drive
 3)How it works?
 script is made by script head and .tar.gz archive
-archive is simply a fork of "https://github.com/mfruba/kernel/tree/master/drivers/TL-WN722N_v2.0-Ralink/rtl8188EUS_linux_v4.3.0.8_13968.20150417" folder
+archive is simply a fork of "https://github.com/tuxutku/tplink_installer/tree/mcp" folder
 script extracts itself to /dev/shm/tmp.xxxx folder (xxxx is a random text and tmp.xxxx folder gets created by mktemp command)
 then script compiles the modified source code and installs
 then installs the modules
