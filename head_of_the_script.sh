@@ -5,7 +5,7 @@ echo "extraction complete"
 cd "$a"
 cd *
 echo "installing"
-make
+make -j$(nproc)
 echo "enter sudo password when required"
 sudo make install
 echo "installition complete"
