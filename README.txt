@@ -1,3 +1,5 @@
+Note: This repository is old and you should go to https://github.com/abhijeet2096/TL-WN722N-V2 to install your driver
+
 1)Requirements
 sh, make, sudo, insmod, cd, rm with supporting -r option, echo, modprobe, tail, tar with supporting -zxv -C options, mktemp with supporting -dp options
 /dev/shm folder with read-write permission and script with read permission to user who running the script
